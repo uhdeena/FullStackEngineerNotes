@@ -1,0 +1,63 @@
+body {
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    font-family: sans-serif;
+  }
+  
+  
+  h1 span,#title {
+    color: rgb(85, 85, 85);
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+  }
+ 
+  h2 {
+    display: inline-block;
+    border-style: solid;
+    padding: 5px 5px;
+    color: rgb(223, 126, 0);
+    font-size: 35px;
+  }
+
+  h3 {
+    color: rgb(26, 203, 235);
+    font-size: 25px;
+  }
+
+  .indented-text li {
+    margin-left: 100px;
+  }
+
+  .indented-text p {
+    margin-left: 100px;
+  }
+
+  .indented-text ol {
+    padding-left: 100px;
+  }
+
+  .indented-text ol li{
+    margin-left: 30px;
+  }
+
+  .indented-text ul{
+    padding-left: 100px;
+  }
+
+  .indented-text ul li {
+    margin-left: 25px;
+  }
+
+  .code-style {
+    color: rgb(217, 255, 0);
+  }
+
+  .css {
+    color: rgb(255, 0, 242);
+  }
+
+  #indented-break li {
+    margin-left: 100px;
+  }
