@@ -25,7 +25,7 @@
                                 <li>element</li>
                             </ol>
                         <p class="indented-text"><li>Chaining Selectors - Must match all criteriea.</li></p>
-                            <p class="indented-text">Example</p>
+                            <p class="indented-text"><span class="highlight">Example</span></p>
                             <ul>
                                 <li>HTML - <code class="code-style"> &lt;h3 section="heading"&gt;</code></li>
                                 <li>CSS - <code class="css">
@@ -39,7 +39,7 @@
                         <p class="indented-text"><li>CSS Descendant Selector - Use spaces between selectors.</li></p>
                         <p class="indented-text"><li>Groups of CSS Selectors - Separate with a comma ( , ).</li></p>
                         <p class="indented-text"><li>CSS ID Selector - Matches ID attribute</li></p>
-                            <p class="indented-text">Example</p>
+                        <p class="indented-text"><span class="highlight">Example</span></p>
                             <ul>
                                 <li>
                                     HTML with this code <br><code class="code-style"> &lt;h3 ID="test"&gt;</code><br> would need to be used in CSS like this <br><code class="css">
@@ -51,14 +51,14 @@
                         <p class="indented-text"><li>CSS Class and ID Selectors - Classes are .class(reusable), #id(not reusable).</li></p>
                         <p class="indented-text"><li>Type Selectors - Match ALL elements of a type or tag name.</li></p>
                         <p class="indented-text"><li>'Style' - An attribute for adding CSS directly.</li></p>
-                            <p class="indented-text">Example</p>
+                        <p class="indented-text"><span class="highlight">Example</span></p>
                             <ul>
                                 <li>
                                     <Code class="code-style">&lt;p style="color: green"&gt;Test Paragraph&lt;/p&gt;</code>
                                 </li>
                             </ul>
                         <p class="indented-text"><li>Descendant Selector - Matches elements that are descended from another matched element. Denoted by a space between each.</li></p>
-                            <p class="indented-text">Example</p>
+                        <p class="indented-text"><span class="highlight">Example</span></p>
                             <ul>
                                 <li>
                                     <Code class="css">div p { <br>}</code> 
@@ -71,17 +71,30 @@
             <h3>How to Write or Link</h3>
                 <ol>
                     <div class="indented-text">   
-                        <p class="indented-text"><li>CSS in seperate .CSS file</li></p>
-                            <p>Example</p>
+                        <p class="indented-text"><li>CSS in seperate .CSS file, add to code with:</li></p>
+                        <p class="indented-text"><span class="highlight">Example</span></p>
                             <ul>
                                 <li>
-                                    <Code class="code-style">&lt;head&gt;<br><p class="indented=text">&lt;style&gt;</p></code>
-                                    <code class="css">h1 { <br>color: blue; <br>}</code>
+                                    <code class="code-style">&lt;head&gt;<br>
+                                        <p class="indented-text">&lt;link href="style.css" type="text/css" rel="stylesheet"&gt;</p></code>
+                                    <code class="code-style">&lt;/head&gt;></code>
                                 </li>
                             </ul>
-
-                    </ol>
-            </div>
-            </main>
-            </body>
-            </html>
+                        <p class="indented-text"><li>Write in HTML File</li></p>
+                        <p class="indented-text"><span class="highlight">Example</span></p>
+                            <ul>
+                                <li>
+                                    <Code class="code-style">&lt;head&gt;<br>
+                                        <p class="indented-text">&lt;style&gt;</p></Code>
+                                    <code class="css">h1 { <br>color: blue; <br>}</code>
+                                    <p class="indented-text"><code class="code-style">&lt;/style&gt;</code></p>
+                                    <code class="code-style">&lt;/head&gt;</code>
+                                </li>
+                            </ul>
+                        <p class="indented-text"><li>HTML attributes with multiple attributes should be seperated by a space.</li></p>
+                    </div>    
+                </ol>
+        </div>
+    </main>
+    </body>
+    </html>
