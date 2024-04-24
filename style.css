@@ -26,8 +26,12 @@ body {
     font-size: 25px;
   }
 
+  .highlight {
+    color: rgb(216, 22, 22);
+  }
+
   .indented-text li {
-    margin-left: 100px;
+    margin-left: 70px;
   }
   
   .indented-text p {
