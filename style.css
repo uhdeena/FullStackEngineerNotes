@@ -4,21 +4,28 @@ body {
     padding: 10px;
     font-family: sans-serif;
   }
-  
-  
-  h1 span,#title {
+
+  h1 span,#underline {
     color: rgb(85, 85, 85);
     text-align: center;
     font-size: 50px;
     text-decoration: underline;
   }
+
+  .intro {
+    display: inline-block;
+    border-style: hidden;
+    width: 800px;
+    color: greenyellow;
+  }
  
-  h2 {
+  span.bordered-text {
     display: inline-block;
     border-style: solid;
     padding: 5px 5px;
     color: rgb(223, 126, 0);
     font-size: 35px;
+    text-align: center;
   }
 
   h3 {
@@ -64,4 +71,27 @@ body {
 
   #indented-break li {
     margin-left: 100px;
+  }
+
+  footer {
+    font-size: x-small;
+    color: rgb(85, 85, 85);
+  }
+
+  .bold {
+    font-weight: bold;
+    font-size: 25;
+  }
+
+  .thin {
+    font-weight: thin;
+    font-size: 25;
+  }
+
+  .background-color {
+    background-color: blue;
+  }
+
+  .foreground-color {
+    color: blue;
   }
